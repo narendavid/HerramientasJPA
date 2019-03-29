@@ -1,0 +1,667 @@
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server version:        Apache Tomcat/7.0.59
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server built:          Jan 28 2015 15:51:10 UTC
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server number:         7.0.59.0
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Name:               Windows 10
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Version:            10.0
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Architecture:          amd64
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Version:           1.8.0_191-b12
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Vendor:            Oracle Corporation
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_BASE:         C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_HOME:         C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-BA1CHPV
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.config.file=C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\logging.properties
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.endorsed.dirs=C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\endorsed
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.base=C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.home=C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.io.tmpdir=C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\temp
+mar 06, 2019 10:23:44 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Naren\bin\Sencha\Cmd\5.1.3.61;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Android\android-sdk\tools;C:\Android\android-sdk\platform-tools;C:\Android\android-sdk\tools\bin;C:\Users\Naren\AppData\Local\Microsoft\WindowsApps;C:\Users\Naren\AppData\Roaming\npm;C:\Users\Naren\AppData\Local\atom\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\Naren\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python27;C:\Python27\Scripts;;.
+mar 06, 2019 10:23:44 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8080"]
+mar 06, 2019 10:23:44 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["ajp-bio-8009"]
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 1061 ms
+mar 06, 2019 10:23:44 PM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio Catalina
+mar 06, 2019 10:23:44 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.59
+mar 06, 2019 10:23:44 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\Catalina\localhost\Practica1.xml
+mar 06, 2019 10:23:45 PM org.apache.catalina.core.StandardContext resourcesStart
+GRAVE: Error arrancando Recursos estáticos
+java.lang.IllegalArgumentException: El Documento base C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Practica1\build\web no existe o no es un directorio legible
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5141)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5326)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+mar 06, 2019 10:23:45 PM org.apache.catalina.core.ContainerBase addChildInternal
+GRAVE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Practica1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5327)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+mar 06, 2019 10:23:45 PM org.apache.catalina.startup.HostConfig deployDescriptor
+GRAVE: Error durante el despliegue del descriptor de configuración C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\Catalina\localhost\Practica1.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Practica1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1859)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+mar 06, 2019 10:23:45 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\Catalina\localhost\Practica1.xml has finished in 120 ms
+mar 06, 2019 10:23:45 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\showcase-5.3.war de la aplicación web
+mar 06, 2019 10:23:49 PM org.apache.catalina.core.StandardContext addApplicationListener
+INFORMACIÓN: El escuchador "com.sun.faces.config.ConfigureListener" ya está configurado para este contexto. La definición duplicada ha sido ignorada.
+mar 06, 2019 10:23:50 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.8 ( 20140814-1418 https://svn.java.net/svn/mojarra~svn/tags/2.2.8@13507) para el contexto '/showcase-5.3'
+mar 06, 2019 10:23:50 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:23:51 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 5.0.1.Final
+mar 06, 2019 10:23:52 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.3
+mar 06, 2019 10:23:53 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFORMACIÓN: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [305] milliseconds.
+mar 06, 2019 10:23:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Deployment of web application archive C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\showcase-5.3.war has finished in 8.734 ms
+mar 06, 2019 10:23:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\docs de la aplicación web
+mar 06, 2019 10:23:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\docs has finished in 185 ms
+mar 06, 2019 10:23:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\examples de la aplicación web
+mar 06, 2019 10:23:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\examples has finished in 492 ms
+mar 06, 2019 10:23:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\host-manager de la aplicación web
+mar 06, 2019 10:23:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\host-manager has finished in 216 ms
+mar 06, 2019 10:23:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\manager de la aplicación web
+mar 06, 2019 10:23:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\manager has finished in 195 ms
+mar 06, 2019 10:23:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\ROOT de la aplicación web
+mar 06, 2019 10:23:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\ROOT has finished in 207 ms
+mar 06, 2019 10:23:55 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+mar 06, 2019 10:23:55 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+mar 06, 2019 10:23:55 PM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 10363 ms
+mar 06, 2019 10:23:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\Catalina\localhost\JPATaller.xml
+mar 06, 2019 10:23:59 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:23:59 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:24:06 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:24:06 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor C:\Users\Naren\Desktop\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\Catalina\localhost\JPATaller.xml has finished in 10.264 ms
+mar 06, 2019 10:24:06 PM org.apache.catalina.util.LifecycleBase start
+INFORMACIÓN: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/JPATaller]] after start() had already been called. The second call will be ignored.
+mar 06, 2019 10:24:08 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:24:08 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:24:08 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:24:08 PM com.sun.faces.context.ExceptionHandlerImpl log
+FATAL: JSF1073: se ha interceptado java.lang.NoClassDefFoundError durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=org/jboss/jandex/IndexView
+mar 06, 2019 10:24:08 PM com.sun.faces.context.ExceptionHandlerImpl log
+FATAL: org/jboss/jandex/IndexView
+java.lang.NoClassDefFoundError: org/jboss/jandex/IndexView
+	at org.hibernate.jpa.boot.spi.Bootstrap.getEntityManagerFactoryBuilder(Bootstrap.java:51)
+	at org.hibernate.jpa.HibernatePersistenceProvider.getEntityManagerFactoryBuilderOrNull(HibernatePersistenceProvider.java:129)
+	at org.hibernate.ejb.HibernatePersistence.getEntityManagerFactoryBuilderOrNull(HibernatePersistence.java:93)
+	at org.hibernate.jpa.HibernatePersistenceProvider.getEntityManagerFactoryBuilderOrNull(HibernatePersistenceProvider.java:86)
+	at org.hibernate.ejb.HibernatePersistence.getEntityManagerFactoryBuilderOrNull(HibernatePersistence.java:101)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:67)
+	at org.hibernate.ejb.HibernatePersistence.createEntityManagerFactory(HibernatePersistence.java:54)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.dao.ImplDao.<clinit>(ImplDao.java:29)
+	at com.controller.ActividadController.<init>(ActividadController.java:22)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+	at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+	at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+	at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+	at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+	at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:71)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:160)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:184)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+	at javax.faces.component.UIInput.getValue(UIInput.java:291)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getValue(HtmlBasicInputRenderer.java:205)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.getCurrentValue(HtmlBasicRenderer.java:355)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeEnd(HtmlBasicRenderer.java:164)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeDynamicBody(PanelGridRenderer.java:89)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeBody(PanelGridRenderer.java:60)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeEnd(PanelGridRenderer.java:49)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: org.jboss.jandex.IndexView
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1720)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1571)
+	... 73 more
+
+mar 06, 2019 10:26:32 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:26:36 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:26:36 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:26:43 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:26:44 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:26:44 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:26:47 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:26:47 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:26:53 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:26:53 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:27:04 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:27:07 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:27:07 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:27:13 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:27:13 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:27:14 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:27:14 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:27:14 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:27:14 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: JPATallerPU
+	...]
+mar 06, 2019 10:27:14 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+mar 06, 2019 10:27:14 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+mar 06, 2019 10:27:14 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+mar 06, 2019 10:27:15 PM com.sun.faces.context.SessionMap put
+ADVERTENCIA: JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: actividadController, clase de valor: com.controller.ActividadController).
+mar 06, 2019 10:30:45 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:30:47 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:30:47 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:30:53 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:30:53 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:30:54 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:30:54 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:30:54 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:30:54 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: JPATallerPU
+	...]
+mar 06, 2019 10:30:55 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+mar 06, 2019 10:30:55 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+mar 06, 2019 10:30:55 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+mar 06, 2019 10:30:56 PM com.sun.faces.context.SessionMap put
+ADVERTENCIA: JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: actividadController, clase de valor: com.controller.ActividadController).
+mar 06, 2019 10:36:08 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:36:11 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:36:11 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:36:17 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:36:17 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:36:33 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:36:36 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:36:36 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:36:42 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:36:42 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:37:56 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:37:59 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:37:59 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:38:05 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:38:05 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:38:16 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:38:18 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:38:19 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:38:24 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:38:24 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:40:49 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:40:52 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:40:52 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:40:57 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:40:57 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:40:58 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:40:58 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:40:58 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:40:59 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: JPATallerPU
+	...]
+mar 06, 2019 10:40:59 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+mar 06, 2019 10:40:59 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+mar 06, 2019 10:40:59 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+mar 06, 2019 10:41:00 PM com.sun.faces.context.SessionMap put
+ADVERTENCIA: JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: actividadController, clase de valor: com.controller.ActividadController).
+mar 06, 2019 10:42:26 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:42:29 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:42:29 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:42:35 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:42:35 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:44:16 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:44:16 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:44:17 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:44:17 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: JPATallerPU
+	...]
+mar 06, 2019 10:44:17 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+mar 06, 2019 10:44:17 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+mar 06, 2019 10:44:17 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+mar 06, 2019 10:44:18 PM com.sun.faces.context.SessionMap put
+ADVERTENCIA: JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: actividadController, clase de valor: com.controller.ActividadController).
+mar 06, 2019 10:51:00 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 10:51:03 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 10:51:03 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 10:51:09 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 10:51:09 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 10:51:10 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:51:10 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:51:10 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 10:51:10 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: JPATallerPU
+	...]
+mar 06, 2019 10:51:10 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+mar 06, 2019 10:51:10 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+mar 06, 2019 10:51:10 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+mar 06, 2019 10:51:12 PM com.sun.faces.context.SessionMap put
+ADVERTENCIA: JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: actividadController, clase de valor: com.controller.ActividadController).
+mar 06, 2019 11:02:41 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 11:02:44 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 11:02:44 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 11:02:51 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 11:02:51 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 11:02:51 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 11:02:53 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 11:02:53 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 11:02:59 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 11:02:59 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 11:07:31 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 11:07:34 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 11:07:34 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 11:07:40 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 11:07:40 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 11:07:40 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 11:07:43 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 11:07:43 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 11:07:49 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 11:07:49 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 11:07:54 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 11:07:57 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 11:07:57 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 11:08:03 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 11:08:03 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 11:08:05 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 11:08:05 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 11:08:05 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 11:08:05 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: JPATallerPU
+	...]
+mar 06, 2019 11:08:05 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+mar 06, 2019 11:08:05 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+mar 06, 2019 11:08:05 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+mar 06, 2019 11:08:06 PM com.sun.faces.context.SessionMap put
+ADVERTENCIA: JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: actividadController, clase de valor: com.controller.ActividadController).
+mar 06, 2019 11:09:48 PM com.sun.faces.context.SessionMap put
+ADVERTENCIA: JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: actividadController, clase de valor: com.controller.ActividadController).
+mar 06, 2019 11:09:51 PM com.sun.faces.lifecycle.InvokeApplicationPhase execute
+ADVERTENCIA: #{actividadController.borrar(act)}: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+javax.faces.FacesException: #{actividadController.borrar(act)}: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:110)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIData.broadcast(UIData.java:1108)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:91)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:109)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+mar 06, 2019 11:09:51 PM com.sun.faces.context.ExceptionHandlerImpl log
+FATAL: JSF1073: se ha interceptado javax.faces.FacesException durante el procesamiento de INVOKE_APPLICATION 5 : UIComponent-ClientId=, Mensaje=#{actividadController.borrar(act)}: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+mar 06, 2019 11:09:51 PM com.sun.faces.context.ExceptionHandlerImpl log
+FATAL: #{actividadController.borrar(act)}: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+javax.faces.FacesException: #{actividadController.borrar(act)}: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:89)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.FacesException: #{actividadController.borrar(act)}: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:110)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIData.broadcast(UIData.java:1108)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	... 23 more
+Caused by: javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:91)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 28 more
+Caused by: javax.el.MethodNotFoundException: /index.xhtml @48,100 action="#{actividadController.borrar(act)}": Método no hallado: com.controller.ActividadController@3306c17a.borrar(com.entity.Actividad)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:109)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 29 more
+
+mar 06, 2019 11:10:28 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 11:10:30 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 11:10:30 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 11:10:35 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 11:10:35 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 11:10:44 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 11:10:47 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 11:10:47 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 11:10:51 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 11:10:51 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 11:10:52 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 11:10:52 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 11:10:52 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+mar 06, 2019 11:10:52 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: JPATallerPU
+	...]
+mar 06, 2019 11:10:52 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+mar 06, 2019 11:10:52 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+mar 06, 2019 11:10:52 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+mar 06, 2019 11:10:53 PM com.sun.faces.context.SessionMap put
+ADVERTENCIA: JSF1063: ADVERTENCIA Definiendo valor de atributo no serializable en HttpSession: (clave: actividadController, clase de valor: com.controller.ActividadController).
+mar 06, 2019 11:54:18 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/JPATaller]
+mar 06, 2019 11:54:21 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/JPATaller'
+mar 06, 2019 11:54:21 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+mar 06, 2019 11:54:26 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+mar 06, 2019 11:54:26 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+mar 06, 2019 11:54:36 PM org.apache.catalina.core.StandardServer await
+INFORMACIÓN: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+mar 06, 2019 11:54:36 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["http-bio-8080"]
+mar 06, 2019 11:54:36 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["ajp-bio-8009"]
+mar 06, 2019 11:54:36 PM org.apache.catalina.core.StandardService stopInternal
+INFORMACIÓN: Parando servicio Catalina
+mar 06, 2019 11:54:36 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["http-bio-8080"]
+mar 06, 2019 11:54:36 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["ajp-bio-8009"]
+mar 06, 2019 11:54:36 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["http-bio-8080"]
+mar 06, 2019 11:54:36 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["ajp-bio-8009"]

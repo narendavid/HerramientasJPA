@@ -1,0 +1,306 @@
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server version:        Apache Tomcat/7.0.59
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server built:          Jan 28 2015 15:51:10 UTC
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server number:         7.0.59.0
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Name:               Windows 10
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Version:            10.0
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Architecture:          amd64
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Java Home:             C:\Program Files\Java\jdk1.8.0_201\jre
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Version:           1.8.0_201-b09
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Vendor:            Oracle Corporation
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_BASE:         C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_HOME:         C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-MG14T3H
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.config.file=C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\logging.properties
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.endorsed.dirs=C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\endorsed
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.base=C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.home=C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59
+feb 25, 2019 3:43:43 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.io.tmpdir=C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\temp
+feb 25, 2019 3:43:43 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+feb 25, 2019 3:43:44 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8080"]
+feb 25, 2019 3:43:44 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["ajp-bio-8009"]
+feb 25, 2019 3:43:44 PM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 2023 ms
+feb 25, 2019 3:43:44 PM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio Catalina
+feb 25, 2019 3:43:44 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.59
+feb 25, 2019 3:43:44 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\showcase-5.3.war de la aplicación web
+feb 25, 2019 3:44:00 PM org.apache.catalina.core.StandardContext addApplicationListener
+INFORMACIÓN: El escuchador "com.sun.faces.config.ConfigureListener" ya está configurado para este contexto. La definición duplicada ha sido ignorada.
+feb 25, 2019 3:44:00 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.8 ( 20140814-1418 https://svn.java.net/svn/mojarra~svn/tags/2.2.8@13507) para el contexto '/showcase-5.3'
+feb 25, 2019 3:44:00 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+feb 25, 2019 3:44:02 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 5.0.1.Final
+feb 25, 2019 3:44:02 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.3
+feb 25, 2019 3:44:03 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFORMACIÓN: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+feb 25, 2019 3:44:03 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Deployment of web application archive C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\showcase-5.3.war has finished in 19.390 ms
+feb 25, 2019 3:44:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\docs de la aplicación web
+feb 25, 2019 3:44:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\docs has finished in 235 ms
+feb 25, 2019 3:44:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\examples de la aplicación web
+feb 25, 2019 3:44:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\examples has finished in 2.182 ms
+feb 25, 2019 3:44:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\host-manager de la aplicación web
+feb 25, 2019 3:44:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\host-manager has finished in 234 ms
+feb 25, 2019 3:44:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\manager de la aplicación web
+feb 25, 2019 3:44:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\manager has finished in 172 ms
+feb 25, 2019 3:44:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\ROOT de la aplicación web
+feb 25, 2019 3:44:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\webapps\ROOT has finished in 172 ms
+feb 25, 2019 3:44:06 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+feb 25, 2019 3:44:06 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+feb 25, 2019 3:44:06 PM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 22591 ms
+feb 25, 2019 3:44:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\Catalina\localhost\Practica1.xml
+feb 25, 2019 3:44:10 PM com.sun.faces.config.ConfigureListener contextInitialized
+INFORMACIÓN: Inicializando Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) para el contexto '/Practica1'
+feb 25, 2019 3:44:10 PM com.sun.faces.spi.InjectionProviderFactory createInstance
+INFORMACIÓN: JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+feb 25, 2019 3:44:18 PM org.primefaces.webapp.PostConstructApplicationEventListener processEvent
+INFORMACIÓN: Running on PrimeFaces 5.0
+feb 25, 2019 3:44:18 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor C:\Users\mipC\Documents\Documentos de trabajos Comfenalco\DESARROLLO 2\Herramientas\apache-tomcat-7.0.59\conf\Catalina\localhost\Practica1.xml has finished in 10.735 ms
+feb 25, 2019 3:44:18 PM org.apache.catalina.util.LifecycleBase start
+INFORMACIÓN: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Practica1]] after start() had already been called. The second call will be ignored.
+feb 25, 2019 3:44:23 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+feb 25, 2019 3:44:23 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+feb 25, 2019 3:44:23 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+feb 25, 2019 3:44:23 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: Practica1PU
+	...]
+feb 25, 2019 3:44:24 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.1.Final}
+feb 25, 2019 3:44:24 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+feb 25, 2019 3:44:24 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+feb 25, 2019 3:44:25 PM com.sun.faces.context.ExceptionHandlerImpl log
+FATAL: JSF1073: se ha interceptado java.lang.ExceptionInInitializerError durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=null
+feb 25, 2019 3:44:25 PM com.sun.faces.context.ExceptionHandlerImpl log
+FATAL: No associated message
+java.lang.ExceptionInInitializerError
+	at com.controller.PacienteController.<init>(PacienteController.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+	at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+	at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+	at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+	at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+	at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:71)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:160)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:184)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+	at javax.faces.component.UIInput.getValue(UIInput.java:291)
+	at org.primefaces.util.ComponentUtils.getValueToRender(ComponentUtils.java:75)
+	at org.primefaces.component.inputtext.InputTextRenderer.encodeMarkup(InputTextRenderer.java:71)
+	at org.primefaces.component.inputtext.InputTextRenderer.encodeEnd(InputTextRenderer.java:52)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeDynamicBody(PanelGridRenderer.java:89)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeBody(PanelGridRenderer.java:60)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeEnd(PanelGridRenderer.java:49)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.PersistenceException: Unable to build entity manager factory
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:81)
+	at org.hibernate.ejb.HibernatePersistence.createEntityManagerFactory(HibernatePersistence.java:54)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.dao.ImplDao.<clinit>(ImplDao.java:29)
+	... 63 more
+Caused by: org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator$1$1.convert(BasicConnectionCreator.java:122)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:140)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:75)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:106)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:89)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:178)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.buildJdbcConnectionAccess(JdbcServicesImpl.java:260)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:94)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:89)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:178)
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1885)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1843)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:843)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:399)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:842)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:73)
+	... 67 more
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:925)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1704)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1250)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:55)
+	... 84 more
+
+feb 25, 2019 3:44:54 PM com.sun.faces.context.ExceptionHandlerImpl log
+FATAL: JSF1073: se ha interceptado java.lang.NoClassDefFoundError durante el procesamiento de RENDER_RESPONSE 6 : UIComponent-ClientId=, Mensaje=Could not initialize class com.services.PacienteServices
+feb 25, 2019 3:44:54 PM com.sun.faces.context.ExceptionHandlerImpl log
+FATAL: Could not initialize class com.services.PacienteServices
+java.lang.NoClassDefFoundError: Could not initialize class com.services.PacienteServices
+	at com.controller.PacienteController.<init>(PacienteController.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.sun.faces.mgbean.BeanBuilder.newBeanInstance(BeanBuilder.java:186)
+	at com.sun.faces.mgbean.BeanBuilder.build(BeanBuilder.java:100)
+	at com.sun.faces.mgbean.BeanManager.createAndPush(BeanManager.java:409)
+	at com.sun.faces.mgbean.BeanManager.create(BeanManager.java:269)
+	at com.sun.faces.el.ManagedBeanELResolver.resolveBean(ManagedBeanELResolver.java:257)
+	at com.sun.faces.el.ManagedBeanELResolver.getValue(ManagedBeanELResolver.java:117)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:71)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:160)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:184)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+	at javax.faces.component.UIOutput.getValue(UIOutput.java:174)
+	at javax.faces.component.UIInput.getValue(UIInput.java:291)
+	at org.primefaces.util.ComponentUtils.getValueToRender(ComponentUtils.java:75)
+	at org.primefaces.component.inputtext.InputTextRenderer.encodeMarkup(InputTextRenderer.java:71)
+	at org.primefaces.component.inputtext.InputTextRenderer.encodeEnd(InputTextRenderer.java:52)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeDynamicBody(PanelGridRenderer.java:89)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeBody(PanelGridRenderer.java:60)
+	at org.primefaces.component.panelgrid.PanelGridRenderer.encodeEnd(PanelGridRenderer.java:49)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

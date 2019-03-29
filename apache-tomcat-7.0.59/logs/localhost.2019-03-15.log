@@ -1,0 +1,12 @@
+mar 15, 2019 10:45:14 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Initializing AtmosphereFramework
+mar 15, 2019 10:45:31 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: contextInitialized()
+mar 15, 2019 10:45:31 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: SessionListener: contextInitialized()
+mar 15, 2019 10:45:31 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6603b6a0')
+mar 15, 2019 10:49:48 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: SessionListener: contextDestroyed()
+mar 15, 2019 10:49:48 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: contextDestroyed()

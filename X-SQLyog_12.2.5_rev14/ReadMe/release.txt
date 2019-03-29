@@ -1,0 +1,17 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2016 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/main/page.php?5
+
+=====================================================================
+X-SQLyog 12.2.5 [rev 14]
+Original software Author: Webyog Softworks
+Original software Home: http://www.webyog.com/en/index.php
+Original software license: GNU General Public License
+X-Software (portable) released on: 26/08/2016
+=====================================================================
